@@ -50,7 +50,7 @@ router.post('/getremedy', [
 
     let data = req.body.symptoms.split(",")
     for (var i = 0; i < data.length; i++) {
-        data[i] = data[i].trim()
+        data[i] = data[i].trim().toLowerCase()
     }
     console.log(data)
     let profiles = await Remedy.find({"symptoms": {$all: data}})
