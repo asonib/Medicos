@@ -1,5 +1,7 @@
-# Safran Test Application
+# Medicos Application
 REST API server built using Node/Express.js, Client Side built using React.js
+
+**Website is live at**: `https://webos-project.herokuapp.com/`
 
 ## Registration(SignUp) API
 Registers user and generates a token for automatic login after registration.
